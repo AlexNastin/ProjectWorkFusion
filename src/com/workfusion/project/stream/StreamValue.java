@@ -11,7 +11,7 @@ public class StreamValue implements Runnable {
 	static Logger LOG = Logger.getLogger(StreamValue.class);
 
 	private long value = 0;
-	private long timestamp = 6000;
+	private long timestamp = 60000;
 
 	private final int ID_VALUE = 1;
 	private ValueDAOImpl dao = ValueDAOImpl.getInstance();
